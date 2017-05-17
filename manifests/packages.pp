@@ -12,8 +12,3 @@ package { 'Microsoft .NET Core 1.0.4 & 1.1.1 - Windows Server Hosting':
     source          => 'C:\vagrant\downloads\DotNetCore.1.0.4_1.1.1-WindowsHosting.exe',
     install_options => ['/q', '/forcerestart'],
 }
-
-dotnet { 'dotnet47':
-    version => '4.7',
-}
-
